@@ -36,7 +36,7 @@ The maximum matching is:
 2  1
 ```
 
-To save time inputting feel free to create a simple text file in the same directory and use some input redirection.
+To save time, feel free to create a simple text file in the same directory and use some input redirection.
 Say you made an input file called `input.txt` and wrote in the following text.
 
 ```
@@ -55,7 +55,7 @@ Say you made an input file called `input.txt` and wrote in the following text.
 
 
 It contains 9 vertices in the X partition and 8 vertices in the Y partition. 
-The graph looks just like this (it looks just like one in the book!).
+The graph looks like this (just like the one in the book!).
 
 <img src="/README/Images/xy1.jpg" width="480" height="270">
 
@@ -81,16 +81,16 @@ The maximum matching is:
 8  5
 ```
 
-Since the output is from the perspective of the vertices in X, any X vertex with a -1 beside it simply means it had no
-matching vertex in the Y partition.
+Since the output is from the perspective of the vertices in X, any value with a -1 beside it simply means
+the X vertex at that index had no matching vertex in the Y partition.
 Here's what the output looks like on graph paper.
 
 <img src="/README/Images/xy2.jpg" width="480" height="270">
 
 ### Some Interesting Examples
 
-I'm not the most creative person, so I could only think about 2 interesting bipartite graphs.
-First, we lets take a look at a complete bipartite graph such as K 3,4.
+I'm not the most creative person, so I could only think about 4 interesting bipartite graphs.
+First, lets take a look at a complete bipartite graph such as K<sup>3,4</sup>.
 
 ```
 $ java -jar MaxBipartiteMatcher.jar
