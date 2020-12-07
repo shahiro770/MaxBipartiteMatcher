@@ -1,6 +1,6 @@
 # MaxBipartiteMatcher
 Determines the maximum matching in any XY-bipartite graph.
-Source for the algorithm can be found in in chapter 3.2 of Douglas B. West's Introduction to Graph Theory.
+Source for the algorithm can be found in chapter 3.2 of Douglas B. West's Introduction to Graph Theory.
 
 ### Setup
 
@@ -187,7 +187,8 @@ The maximum matching is:
 
 I went to draw this out originally, but unfortunately it got super messy after I made one mistake.
 I still believe this is a maximum matching for such a graph (or at least I couldn't find a matching of size greater than 8).
-But can we go any bigger? 
+
+But can we go any bigger?
 
 #### There's No Escaping 
 
@@ -414,4 +415,4 @@ It also took around 2.87 milliseconds, probably attesting to the algorithm's O(m
 While there's no hope of me drawing this out to verify correctness, I'd wager 99 matches is probably a maximum matching.
 
 Hopefully these examples were interesting enough to show off the power of this algorithm. Thank you for reading.
-In case you need a direct link to the code and don't want to navigate the directories, you can find my implementation [here].(https://github.com/shahiro770/MaxBipartiteMatcher/blob/master/src/com/MaxMatcherMans/Main.java)
+In case you need a direct link to the code and don't want to navigate the directories, you can find my implementation [here](https://github.com/shahiro770/MaxBipartiteMatcher/blob/master/src/com/MaxMatcherMans/Main.java).
