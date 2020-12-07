@@ -88,6 +88,7 @@ Here's what the output looks like on graph paper.
 <img src="/README/Images/xy2.jpg" width="480" height="270">
 
 ### Some Interesting Examples
+##### Complete
 
 I'm not the most creative person, so I could only think about 4 interesting bipartite graphs.
 First, lets take a look at a complete bipartite graph such as K<sub>3,4</sub>.
@@ -110,9 +111,11 @@ The maximum matching is:
 2  2
 ```
 
-Well that wasn't so interesting. How about this one from the front page of wikipedia?
+##### Wikipedia Has Everything
 
-<img src="/README/Images/xywiki.jpg" width="480" height="270">
+Well that wasn't so interesting. How about this one from the [front page of wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)?
+
+<img src="/README/Images/xywiki.png" width="480" height="270">
 
 ```
 $ java -jar MaxBipartiteMatcher.jar
@@ -136,8 +139,11 @@ The maximum matching is:
 4  3
 ```
 
+##### Bigger? 
+
 Now that was pretty cool. But how about we spice it up a little?
 Here's a 10x10 matrix I randomly generated with a little python script.
+What will the results be here?
 
 ```
 10
@@ -153,8 +159,6 @@ Here's a 10x10 matrix I randomly generated with a little python script.
 0 1 1 0 1 1 0 0 0 0
 0 0 0 0 1 0 1 0 1 0
 ```
-
-Now what will the results be here?
 
 ```
 $ java -jar MaxBipartiteMatcher.jar < input10x10.txt
@@ -177,8 +181,10 @@ The maximum matching is:
 ```
 
 I went to draw this out originally, but unfortunately it got super messy after I made one mistake.
-But with 8 matchings, I believe this is a maximum matching for such a graph (or at least I couldn't find a bigger one).
+I still believe this is a maximum matching for such a graph (or at least I couldn't find a matching of size greater than 8).
 But can we go any bigger? 
+
+##### There's No Escaping 
 
 ```
 100
@@ -401,5 +407,6 @@ The maximum matching is:
 Now to my shock, the algorithm matched all but 1 vertex for both X and Y.
 It also took around 2.87 milliseconds, probably attesting to the algorithm's O(mn) time complexity (though I don't know enough about time complexity to say if this is efficient).
 While there's no hope of me drawing this out to verify correctness, I'd wager 99 matches is probably a maximum matching.
-Hopefully this is an interesting enough example to show off the power of this algorithm. Thank you for reading.
-In case you need a direct link to the code and don't want to navigate the directories, you can find it [here].(https://github.com/shahiro770/MaxBipartiteMatcher/blob/master/src/com/MaxMatcherMans/Main.java)
+
+Hopefully these examples were interesting enough to show off the power of this algorithm. Thank you for reading.
+In case you need a direct link to the code and don't want to navigate the directories, you can find my implementation [here].(https://github.com/shahiro770/MaxBipartiteMatcher/blob/master/src/com/MaxMatcherMans/Main.java)
