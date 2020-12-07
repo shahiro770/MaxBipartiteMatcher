@@ -36,7 +36,7 @@ The maximum matching is:
 2  1
 ```
 
-To save time inputting feel free to create a simple text file in the same directory use some input redirection.
+To save time inputting feel free to create a simple text file in the same directory and use some input redirection.
 Say you made an input file called `input.txt` and wrote in the following text.
 
 ```
