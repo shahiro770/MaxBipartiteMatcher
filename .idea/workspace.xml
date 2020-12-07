@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c6ace4-64d9-4d0b-8048-4d578e43428d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +33,11 @@
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/README/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="71">
-                <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              <first_editor relative-caret-position="134">
+                <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -60,6 +60,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/MaxMatcherMans/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/README/README.md" />
       </list>
     </option>
   </component>
@@ -100,13 +101,7 @@
             <path>
               <item name="MaxBipartiteMatcher" type="b2602c69:ProjectViewProjectNode" />
               <item name="MaxBipartiteMatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaxBipartiteMatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaxBipartiteMatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MaxMatcherMans" type="462c0819:PsiDirectoryNode" />
+              <item name="README" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -123,6 +118,12 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/README" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,12 +190,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607369861042</updated>
-      <workItem from="1607369866442" duration="3012000" />
+      <workItem from="1607369866442" duration="3277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3012000" />
+    <option name="totallyTimeSpent" value="3277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -250,11 +251,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/README/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="71">
-            <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <first_editor relative-caret-position="134">
+            <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
