@@ -93,7 +93,7 @@ Here's what the output looks like on graph paper.
 <img src="/README/Images/xy2.jpg" width="480" height="270">
 
 ### Some Interesting Examples
-##### Complete
+#### Complete
 
 I'm not the most creative person, so I could only think about 4 interesting bipartite graphs.
 First, lets take a look at a complete bipartite graph such as K<sub>3,4</sub>.
@@ -116,11 +116,11 @@ The maximum matching is:
 2  2
 ```
 
-##### Wikipedia Has Everything
+#### Wikipedia Has Everything
 
 Well that wasn't so interesting. How about this one from the [front page of wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)?
 
-<img src="/README/Images/xywiki.png" width="480" height="270">
+<img src="/README/Images/xywiki.png" width="600" height="600">
 
 ```
 $ java -jar MaxBipartiteMatcher.jar
@@ -144,7 +144,7 @@ The maximum matching is:
 4  3
 ```
 
-##### Bigger? 
+#### Bigger? 
 
 Now that was pretty cool. But how about we spice it up a little?
 Here's a 10x10 matrix I randomly generated with a little python script.
@@ -189,7 +189,7 @@ I went to draw this out originally, but unfortunately it got super messy after I
 I still believe this is a maximum matching for such a graph (or at least I couldn't find a matching of size greater than 8).
 But can we go any bigger? 
 
-##### There's No Escaping 
+#### There's No Escaping 
 
 ```
 100
