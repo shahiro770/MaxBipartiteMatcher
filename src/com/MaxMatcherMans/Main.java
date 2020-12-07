@@ -128,7 +128,6 @@ public class Main {
                 */
                 if (S[x] == false && markedS[x] == false) {     //
                     for (int y = 0; y < sizeY; y++) {
-                        // System.out.println(x + " " + y + " " + graph[x][y] + " matching[x] " + matching[x] + " unmatchedY " + unmatchedY[y]);
                         /*
                             If the vertex y is in N(x), xy is not in M, and y is unsaturated,
                             then add xy to the matching and saturate x and y, and end this application of the algorithm.
