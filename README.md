@@ -90,7 +90,7 @@ Here's what the output looks like on graph paper.
 ### Some Interesting Examples
 
 I'm not the most creative person, so I could only think about 4 interesting bipartite graphs.
-First, lets take a look at a complete bipartite graph such as K<sup>3,4</sup>.
+First, lets take a look at a complete bipartite graph such as K<sub>3,4</sub>.
 
 ```
 $ java -jar MaxBipartiteMatcher.jar
