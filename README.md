@@ -55,6 +55,7 @@ Say you made an input file called `input.txt` and wrote in the following text.
 
 
 It contains 9 vertices in the X partition and 8 vertices in the Y partition. The graph looks just like this.
+
 <img src="/README/Images/xy1.jpg" width="480" height="270">
 
 If you were to run the program with the above input using input redirection you'll see the following
@@ -81,6 +82,6 @@ The maximum matching is:
 
 Since the output is from the perspective of the vertices in X, any X vertex with a -1 beside it simply means it had no
 matching vertex in the Y partition.
-And in case you're wondering the graphical representation for the outputted matching is:
+Here's what the output looks like on graph paper.
 
-
+<img src="/README/Images/xy2.jpg" width="480" height="270">
