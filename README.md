@@ -36,6 +36,11 @@ The maximum matching is:
 2  1
 ```
 
+The above output claims a a possible maximum matching is x0 with y0, x1 with y2, and x2 with y1 (which is correct).
+Surely x0 with y2, x1 with y0, and x2 with y1 is also a maximum matching, but since
+my implementation starts with the lowest indexed X vertex (the book's algorithm doesn't specify an order to start with),
+it will always provide the above output as the maximum matching.
+
 To save time, feel free to create a simple text file in the same directory and use some input redirection.
 Say you made an input file called `input.txt` and wrote in the following text.
 
