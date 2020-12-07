@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c6ace4-64d9-4d0b-8048-4d578e43428d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="254">
-                <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+              <first_editor relative-caret-position="164">
+                <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -58,8 +58,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/MaxMatcherMans/Main.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/README/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -96,11 +96,6 @@
             <path>
               <item name="MaxBipartiteMatcher" type="b2602c69:ProjectViewProjectNode" />
               <item name="MaxBipartiteMatcher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaxBipartiteMatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaxBipartiteMatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="README" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,12 +184,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607369861042</updated>
-      <workItem from="1607369866442" duration="3306000" />
+      <workItem from="1607369866442" duration="3350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3306000" />
+    <option name="totallyTimeSpent" value="3350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -253,8 +248,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="254">
-            <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <first_editor relative-caret-position="164">
+            <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor />

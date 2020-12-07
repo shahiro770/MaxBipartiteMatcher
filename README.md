@@ -55,7 +55,7 @@ Say you made an input file called `input.txt` and wrote in the following text.
 
 
 It contains 9 vertices in the X partition and 8 vertices in the Y partition. The graph looks just like this.
-<img src="/README/Images/xy1.jpeg" width="480" height="270">
+<img src="/README/Images/xy1.jpg" width="480" height="270">
 
 If you were to run the program with the above input using input redirection you'll see the following
 (don't worry about it skipping through the input prompts, input redirection just does that).
