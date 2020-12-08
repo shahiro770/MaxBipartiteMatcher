@@ -147,9 +147,9 @@ The maximum matching is:
 4  3
 ```
 
-#### Bigger? 
+#### Less Trivial 
 
-Now that was pretty cool. But how about we spice it up a little?
+Well you probably could still have solved that one with your eyes. But how about we spice it up a little?
 Here's a 10x10 matrix I randomly generated with a little python script.
 What will the results be here?
 
@@ -188,8 +188,8 @@ The maximum matching is:
 9  8
 ```
 
-I went to draw this out originally, but unfortunately it got super messy after I made one mistake.
-I still believe this is a maximum matching for such a graph (or at least I couldn't find a matching of size greater than 8).
+I went to draw this out originally, but unfortunately it got super messy after I made one mistake (and practically I don't think anyone would want to see so many edges).
+I still believe this is a maximum matching for such a graph, or at least I couldn't find a matching of size greater than 8.
 
 But can we go any bigger?
 
@@ -413,8 +413,8 @@ The maximum matching is:
 99  -1
 ```
 
-Now to my shock, the algorithm matched all but 1 vertex for both X and Y.
-It also took around 2.87 milliseconds, probably attesting to the algorithm's O(mn) time complexity (though I don't know enough about time complexity to say if this is efficient).
+Now to my shock, the program matched all but 1 vertex for both X and Y.
+It also took around 2.87 milliseconds, attesting to the algorithm's O(mn) time complexity (though I don't know enough about time complexity to say if this is efficient).
 While there's no hope of me drawing this out to verify correctness, I'd wager 99 matches is probably a maximum matching.
 
 Hopefully these examples were interesting enough to show off the power of this algorithm. Thank you for reading.

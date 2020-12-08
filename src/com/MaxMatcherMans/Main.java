@@ -81,7 +81,7 @@ public class Main {
      *              where the ith value is the index of a given vertex in X and M[i] is the index of the
      *              matched vertex in Y
      *
-     * This function assumes the graph has no dimensions of size 0
+     * This method assumes the graph has no dimensions of size 0
      * (if X or Y were empty, the main method will tell the user the size of the maximum matching is 0).
      * Note that all arrays in Java initialize with all values as false.
      */
@@ -162,7 +162,7 @@ public class Main {
 
             /*
                 If all x in S have been marked, then a maximum matching has been found.
-                Setting foundMaxMatching to true will stop the function from reapplying the algorithm.
+                Setting foundMaxMatching to true will stop the method from reapplying the algorithm.
             */
             for (int x = 0; x < sizeX; x++) {
                 if (markedS[x] == false) {
