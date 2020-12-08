@@ -116,6 +116,9 @@ The maximum matching is:
 2  2
 ```
 
+The output is as expected. All three vertices in X are matched to the first unsaturated Y vertex the algorithm can find.
+The fourth vertex in Y goes unmatched.
+
 #### Wikipedia Has Everything
 
 Well that wasn't so interesting. How about this one from the [front page of wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)?
@@ -301,7 +304,7 @@ Behold! The matrix is enormous! 100 vertices in the X partition, 100 vertices in
 thousands of edges in between. Will the algorithm survive?
 
 ```
-$ java -jar MaxBipartiteMatcher.jar < input.txt
+$ java -jar MaxBipartiteMatcher.jar < 100x100input.txt
 Enter the number of vertices in the independent set X:
 Enter the number of vertices in the independent set Y:
 Enter an |X| by |Y| matrix, where:
