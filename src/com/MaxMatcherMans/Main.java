@@ -1,7 +1,7 @@
 /**
  * @author Shahir Chowdhury
  * 2020/12/05
- * MaxMatcherMans.java
+ * Main.java
  *
  * This program takes in a modified adjacency matrix for an X,Y-bipartite graph
  * and outputs the maximum matching.
