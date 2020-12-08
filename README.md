@@ -4,7 +4,7 @@ Source for the algorithm can be found in chapter 3.2 of Douglas B. West's Introd
 
 ### Setup
 
-Click the v1.0.0 Launch underneath releases. From there download the MaxBipartiteMatcher.jar.zip
+Click the v1.0.0 Launch underneath releases. Next, download the MaxBipartiteMatcher.jar.zip
 and unzip it in your desired directory. Finally, navigate to that directory in your favourite command-line interface
 and run the following command to start the program.
 
@@ -38,7 +38,7 @@ The maximum matching is:
 
 The above output claims a a possible maximum matching is x0 with y0, x1 with y2, and x2 with y1 (which is correct).
 Surely x0 with y2, x1 with y0, and x2 with y1 is also a maximum matching, but since
-my implementation starts with the lowest indexed X vertex (the book's algorithm doesn't specify an order to start with),
+my implementation starts with the lowest indexed X and Y verticies (the book's algorithm doesn't specify an order to start with),
 it will always provide the above output as the maximum matching.
 
 To save time, feel free to create a simple text file in the same directory and use some input redirection.
@@ -188,7 +188,7 @@ The maximum matching is:
 9  8
 ```
 
-I went to draw this out originally, but unfortunately it got super messy after I made one mistake (and practically I don't think anyone would want to see so many edges).
+I went to draw this out originally, but unfortunately it got super messy after I made one mistake (and practically I don't think anyone would want to see 50 edges in a tangled mess).
 I still believe this is a maximum matching for such a graph, or at least I couldn't find a matching of size greater than 8.
 
 But can we go any bigger?
@@ -301,10 +301,10 @@ But can we go any bigger?
 ```
 
 Behold! The matrix is enormous! 100 vertices in the X partition, 100 vertices in the Y partition, and
-thousands of edges in between. Will the algorithm survive?
+thousands of edges in between. Just scrolling through the matrix will make you feel like you're *in* The Matrix. Will the algorithm survive?
 
 ```
-$ java -jar MaxBipartiteMatcher.jar < 100x100input.txt
+$ java -jar MaxBipartiteMatcher.jar < input100x100.txt
 Enter the number of vertices in the independent set X:
 Enter the number of vertices in the independent set Y:
 Enter an |X| by |Y| matrix, where:
