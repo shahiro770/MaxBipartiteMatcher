@@ -121,7 +121,7 @@ The fourth vertex in Y goes unmatched.
 
 #### Wikipedia Has Everything
 
-Well that wasn't so interesting. How about this one from the [this page on wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)?
+Well that wasn't so interesting. How about this one from [this page on wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)?
 
 <img src="/README/Images/xywiki.png" width="600" height="600">
 
